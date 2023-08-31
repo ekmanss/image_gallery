@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import ImageGallery from "./components/ImageGallery";
 import {mockData} from "./mockData";
-import DialogDemo from "@/registry/default/example/dialog-demo";
+import CalendarDemo from "@/registry/default/example/calendar-demo";
 import {DialogDemo as MyDialogDemo} from "./DialogDemo";
 
 const root = ReactDOM.createRoot(
@@ -16,5 +16,5 @@ root.render(
     //     </div>
     // </React.StrictMode>
 
-    <MyDialogDemo></MyDialogDemo>
+    <CalendarDemo></CalendarDemo>
 );
