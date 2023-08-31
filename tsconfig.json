@@ -6,6 +6,12 @@
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "contentlayer/generated": ["./src/.contentlayer/generated"],
+      "types/*": ["./src/types/*"],
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
